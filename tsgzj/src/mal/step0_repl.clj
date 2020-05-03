@@ -13,9 +13,12 @@
        EVAL
        PRINT))
 
+;; Added flush to work avoid store in the buffer
+;; https://clojuredocs.org/clojure.core/read-line
 (defn repl []
     (do
       (print "user> ")
+      (flush)
       (let [input (read-line)]
         (when (not (= "" input))
           (println (rep input))
