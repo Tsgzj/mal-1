@@ -20,7 +20,7 @@
       (print "user> ")
       (flush)
       (let [input (read-line)]
-        (when (not (= "" input))
+        (when (not (clojure.string/blank? input))
           (println (rep input))
           (recur)))))
 
