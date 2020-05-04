@@ -267,7 +267,7 @@ wasm_STEP_TO_PROG =          impls/wasm/$($(1)).$(if $(filter lucet,$(wasm_MODE)
 wren_STEP_TO_PROG =          impls/wren/$($(1)).wren
 yorick_STEP_TO_PROG =        impls/yorick/$($(1)).i
 zig_STEP_TO_PROG =           impls/zig/$($(1))
-tsgzj_STEP_TO_PROG =         tsgzj/target/$($(1)).jar
+tsgzj_STEP_TO_PROG =         impls/tsgzj/target/$($(1)).jar
 
 #
 # General settings and utility functions
