@@ -20,6 +20,6 @@ node_modules
 logs
 old
 tmp/
-tsgzj/classes/*
-tsgzj/.cpcache
-tsgzj/target/*
+impls/tsgzj/classes/*
+impls/tsgzj/.cpcache
+impls/tsgzj/target/*
